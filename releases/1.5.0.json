@@ -1,0 +1,44 @@
+{
+  "product": "netpilot",
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.5.0",
+  "released_at": "2026-09-30T08:54:59Z",
+  "issued_at": "2026-09-30T08:54:59Z",
+  "min_version": "1.0.0",
+  "migrations": true,
+  "notes": "Portal público de pruebas: la demostración se puede poner en internet para convertir visitas en contactos. Con\nNETPILOT_DEMO_SIGNUP=true la pantalla de inicio es un registro (nombre, correo, empresa, teléfono e interés, con\nconsentimiento): con SMTP el visitante recibe un enlace de acceso por correo y, sin él, entra al momento. El equipo\ncomercial recibe un aviso por correo y por webhook (Slack o Teams) en cada registro, en el primer acceso y cuando\nalguien vuelve. Los contactos se guardan aparte, sobreviven al borrado nocturno y se descargan en CSV con una\nclave. Las credenciales de la demo dejan de publicarse.\n\nDemostración: cada noche (por defecto a las 04:00) se borran y se regeneran los datos de ejemplo y los ficheros\nsubidos. La franja superior indica la hora y puede llevar un botón «Hablar con ventas».",
+  "release_url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/tag/v1.5.0",
+  "packages": {
+    "linux_tar": {
+      "file": "netpilot-1.5.0.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.5.0/netpilot-1.5.0.tar.gz",
+      "sha256": "bf1bccb21793c59050b1f92dd4f86fa890c201dda1b8ca9d708d962a74670aa2",
+      "size": 66654374
+    },
+    "docker": {
+      "file": "netpilot-docker-1.5.0.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.5.0/netpilot-docker-1.5.0.tar.gz",
+      "sha256": "5ecb75dbf946f7b1f7cf70361743fa352b3873b422101a34e28efd95b9798279",
+      "size": 97803783
+    },
+    "linux_run": {
+      "file": "netpilot-installer-1.5.0.run",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.5.0/netpilot-installer-1.5.0.run",
+      "sha256": "b3089617ff79c77f17e1988c32388de166cb84de3de718f7afc29d127791a3f0",
+      "size": 66656906
+    },
+    "linux_deb": {
+      "file": "netpilot_1.5.0_all.deb",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.5.0/netpilot_1.5.0_all.deb",
+      "sha256": "835e5d4c51ee85d6c4a887d14a715b86b86617075953705cea81eb69eff3e25f",
+      "size": 65056066
+    },
+    "windows": {
+      "file": "NetPilotSetup-1.5.0.exe",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.5.0/NetPilotSetup-1.5.0.exe",
+      "sha256": "b8957eeefdf2367eb51649373bb8976c8ba16877c855eacaac9f655be2d982b9",
+      "size": 101069894
+    }
+  }
+}
