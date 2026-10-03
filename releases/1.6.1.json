@@ -1,0 +1,44 @@
+{
+  "product": "netpilot",
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.6.1",
+  "released_at": "2026-10-03T14:41:53Z",
+  "issued_at": "2026-10-03T14:41:53Z",
+  "min_version": "1.0.0",
+  "migrations": true,
+  "notes": "Updates from the web, with progress: while an update is installing, everyone with NetPilot open sees the progress\n(download, backup, installation step by step and start of the new version) and the page reloads by itself when the\nnew version answers. While the service is stopped, the installer serves that progress on the same address and port,\nso anyone who opens NetPilot during the update sees \"NetPilot is being updated\" instead of a connection error. If the\nupdate fails, you are told and NetPilot keeps running the previous version.\n\nWhat's new after updating: after an update, each user sees the release notes of the installed version once.\n\nCleaner change log:\n\n- Changes to \"last seen\" and to the MAC address are no longer recorded: they change by themselves on every scan or\n  sync (phones and laptops use random MAC addresses). Updating also removes them from the entries already recorded.\n  When an object is created or deleted they are still recorded with the rest of its data.\n- Administrators can delete entries: the selected ones, every entry matching the filters or the whole log. The\n  deletion itself is recorded (who and how many).\n\nFixes:\n\n- Windows: updating from the web failed with \"Python 3.11 or newer was not found\" when Python had been installed\n  \"just for me\" (the default option of the python.org installer). The update runs as SYSTEM, which does not see that\n  Python. The installer now uses the same Python the installed NetPilot already runs on.\n- Windows: if the update failed before starting (for example, because of the previous point), the NetPilot service\n  was left stopped. It is now started again with the previous version.\n- When updating, the installation kept being recorded with the original version (for example, 1.2.1 on a server\n  already running 1.4). The installed version is now recorded.\n- With PostgreSQL, unattended updates no longer ask for the database superuser password.\n- If an update fails and the previous version starts again, the web shows it straight away. A download or backup\n  interrupted by a restart no longer stays \"in progress\" forever.\n- Only the documentation a customer needs is installed (version history, installation and operation guides and the\n  module reference). Internal documents (proposals, design notes, public demo, marketing material) are no longer\n  installed, and those left by earlier versions are removed when updating. On Windows, files of previous versions\n  are no longer left in the installation package folder.",
+  "release_url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/tag/v1.6.1",
+  "packages": {
+    "linux_tar": {
+      "file": "netpilot-1.6.1.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.1/netpilot-1.6.1.tar.gz",
+      "sha256": "1adfb45f8ed90b55b190a01f28df2e3746442861cba9c5bc7bdd83602c056204",
+      "size": 47403340
+    },
+    "docker": {
+      "file": "netpilot-docker-1.6.1.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.1/netpilot-docker-1.6.1.tar.gz",
+      "sha256": "cd93823eb19d28ef49bf9a45b11a2a8f1c2113e957b6857d603d9ab774a50e98",
+      "size": 102965612
+    },
+    "linux_run": {
+      "file": "netpilot-installer-1.6.1.run",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.1/netpilot-installer-1.6.1.run",
+      "sha256": "1d7715e97d43c21a5dcc7e01dcf7af3a1a4a5d96092de381fff21970e084f546",
+      "size": 47414114
+    },
+    "linux_deb": {
+      "file": "netpilot_1.6.1_all.deb",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.1/netpilot_1.6.1_all.deb",
+      "sha256": "b8e2281807c112c9cdca88deeaca29079d50ef4a39566d2676e3eaccf6a23fd0",
+      "size": 46178082
+    },
+    "windows": {
+      "file": "NetPilotSetup-1.6.1.exe",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.1/NetPilotSetup-1.6.1.exe",
+      "sha256": "73824ac5c552fdac7f139a107b0ea66ddac4193d632675cd0e0f549e1672d1c0",
+      "size": 82843375
+    }
+  }
+}
