@@ -1,0 +1,44 @@
+{
+  "product": "netpilot",
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.6.0",
+  "released_at": "2026-10-03T06:52:58Z",
+  "issued_at": "2026-10-03T06:52:58Z",
+  "min_version": "1.0.0",
+  "migrations": true,
+  "notes": "Endpoints (*Inventory → Endpoints*): a new section to document what connects to the network but is not network\ngear: PCs, laptops, servers, virtual machines, printers, POS terminals, phones, mobiles, tablets, TVs, cameras, NAS\nand IoT. Each endpoint has a location, company, manufacturer and model, serial number, asset tag, MAC, IP (linked to\nIPAM), operating system, CPU, RAM and disk, assigned user, purchase date and warranty. Endpoints show up in the global\nsearch, on each location's page and on the dashboard, and they do not count toward the license device limit.\n\nBulk edit: in the lists you can select several items (or every item that matches the filters) and move them to\nanother location, change their common fields or add and remove tags in one go.\n\nDiscovery (discovery module):\n\n- Automatic classification of discovered hosts into 19 types (PC, printer, POS, phone, camera, access point, switch,\n  firewall…) based on the manufacturer, open ports, name, SNMP, VLAN or prefix and LLDP/CDP capabilities, with a\n  confidence level and \"Why this type?\" listing the evidence. The type can be corrected by hand.\n- Adoption wizard: documents several discovered hosts at once as an endpoint, a device or just an IP, with a name\n  template ({hostname}, {ip_last}, {site_code}…) and a live preview of the resulting names and conflicts.\n- Adoption rules (/descubrimiento/reglas): conditions (manufacturer, ports, name, network, VLAN…) and actions (set\n  the type, adopt, ignore), with ready-made templates, preview and automatic application after each scan.\n- LLDP/CDP link details: capabilities, platform and version, native VLAN, duplex and the state of the documented\n  cable, with a shortcut to the finding or to create the cable.\n- The finding for an undocumented host now suggests creating an endpoint (or a device, if it is network gear).\n\nHelp on every screen: the \"?\" button in the top bar and in each page header (or the F1 key) opens the guide for\nthat screen in a side panel, and *Help & tutorials* (/ayuda) gathers more than 80 articles by category, with\nsearch. The search (Ctrl+K) also finds help articles.\n\nBackups from the web (*Administration → System & updates → Backups*): on-demand backup with progress; daily or\nweekly schedule; retention (last N, last N days and GFS); destinations in a local or network folder, NAS/SMB, SFTP,\nWebDAV and S3-compatible storage; password-based AES-256-GCM encryption for remote backups; backup upload;\nexplore a backup and see how it differs from the current data, object by object, before restoring; and a\nstaged restore: you pick the parts, an automatic backup is taken first, it is applied on restart and, if anything\nfails, the previous data is put back. With PostgreSQL, netpilotctl backup and the backups made from the web include\nthe database (logical dump) and are restored the same way. backup_failed and backup_ok notifications. Details in\ndocs/OPERACION.md §14.\n\nLogs and files: two new tabs in *System & updates* to read the application, service, update, installer and backup\nlogs (level and text filter, live follow, copy and download) and the configuration files with secrets masked. If an\nupdate from the web fails, \"View log\" opens the log of that installation.\n\nNetPilot in English: the whole application is translated: interface, API messages, e-mails, notifications,\nPDF/Excel/HTML reports, netpilotctl (--lang), the installation wizard, the help and the documentation. English is\nthe default language; each user picks theirs in the user menu or in their profile, and the administrator sets the\norganization's default language in *Settings* (used for e-mails, reports and background jobs). Adding a language only\ntakes translating the language files. The main documentation is now in English; the Spanish version is in the\n*.es.md files.\n\nInterface: accordion sidebar (one group open at a time: the one for the current page). Maps no longer overlap\ndialogs, the sidebar or the search.\n\nSecurity: deleting a company or a location included in the permissions of a restricted user made that user see\neverything. Deletion is now blocked until that permission is removed.\n\nDemo: regenerating the sample data (the nightly reset and python -m app.demo --reset) drops every table,\nincluding the modules' tables; previously some of them survived and the new seeding clashed with their data.\n\nDatabase: migrations 0007 (endpoints), 0008 (discovery classification, adoption rules and LLDP/CDP details)\nand 0009 (per-user language); they are applied automatically when upgrading.",
+  "release_url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/tag/v1.6.0",
+  "packages": {
+    "linux_tar": {
+      "file": "netpilot-1.6.0.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.0/netpilot-1.6.0.tar.gz",
+      "sha256": "986a435bca7c6d0d115551ce2b12877eb3c2cab2bd0b82dc6a8d1df342e3bac5",
+      "size": 68513222
+    },
+    "docker": {
+      "file": "netpilot-docker-1.6.0.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.0/netpilot-docker-1.6.0.tar.gz",
+      "sha256": "690b58ce85216605cd261f3a23dcf6e405ee528191e360003b82a6ca52c8f498",
+      "size": 102958951
+    },
+    "linux_run": {
+      "file": "netpilot-installer-1.6.0.run",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.0/netpilot-installer-1.6.0.run",
+      "sha256": "f7d15caaf3eda38b5ce3e64656e071d9f9b87f531899bcfa0bd251afd4010612",
+      "size": 68519438
+    },
+    "linux_deb": {
+      "file": "netpilot_1.6.0_all.deb",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.0/netpilot_1.6.0_all.deb",
+      "sha256": "0805fc2c4f6c4e60c76bd83e02c66323ebfc4cdebd3539575d204856258bb4a5",
+      "size": 66571486
+    },
+    "windows": {
+      "file": "NetPilotSetup-1.6.0.exe",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.0/NetPilotSetup-1.6.0.exe",
+      "sha256": "025d4d924728540cf1b3c09f31f4b6a51e5ba4614a03d3f394b4d013b4e418e0",
+      "size": 103093213
+    }
+  }
+}
