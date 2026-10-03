@@ -1,47 +1,47 @@
 {
   "format": "netpilot-update/1",
-  "signed": "eyJjaGFubmVsIjoiYmV0YSIsImlzc3VlZF9hdCI6IjIwMjYtMTAtMDNUMTQ6NDE6NTNaIiwibWlncmF0aW9ucyI6dHJ1ZSwibWluX3ZlcnNpb24iOiIxLjAuMCIsIm5vdGVzIjoiVXBkYXRlcyBmcm9tIHRoZSB3ZWIsIHdpdGggcHJvZ3Jlc3M6IHdoaWxlIGFuIHVwZGF0ZSBpcyBpbnN0YWxsaW5nLCBldmVyeW9uZSB3aXRoIE5ldFBpbG90IG9wZW4gc2VlcyB0aGUgcHJvZ3Jlc3Ncbihkb3dubG9hZCwgYmFja3VwLCBpbnN0YWxsYXRpb24gc3RlcCBieSBzdGVwIGFuZCBzdGFydCBvZiB0aGUgbmV3IHZlcnNpb24pIGFuZCB0aGUgcGFnZSByZWxvYWRzIGJ5IGl0c2VsZiB3aGVuIHRoZVxubmV3IHZlcnNpb24gYW5zd2Vycy4gV2hpbGUgdGhlIHNlcnZpY2UgaXMgc3RvcHBlZCwgdGhlIGluc3RhbGxlciBzZXJ2ZXMgdGhhdCBwcm9ncmVzcyBvbiB0aGUgc2FtZSBhZGRyZXNzIGFuZCBwb3J0LFxuc28gYW55b25lIHdobyBvcGVucyBOZXRQaWxvdCBkdXJpbmcgdGhlIHVwZGF0ZSBzZWVzIFwiTmV0UGlsb3QgaXMgYmVpbmcgdXBkYXRlZFwiIGluc3RlYWQgb2YgYSBjb25uZWN0aW9uIGVycm9yLiBJZiB0aGVcbnVwZGF0ZSBmYWlscywgeW91IGFyZSB0b2xkIGFuZCBOZXRQaWxvdCBrZWVwcyBydW5uaW5nIHRoZSBwcmV2aW91cyB2ZXJzaW9uLlxuXG5XaGF0J3MgbmV3IGFmdGVyIHVwZGF0aW5nOiBhZnRlciBhbiB1cGRhdGUsIGVhY2ggdXNlciBzZWVzIHRoZSByZWxlYXNlIG5vdGVzIG9mIHRoZSBpbnN0YWxsZWQgdmVyc2lvbiBvbmNlLlxuXG5DbGVhbmVyIGNoYW5nZSBsb2c6XG5cbi0gQ2hhbmdlcyB0byBcImxhc3Qgc2VlblwiIGFuZCB0byB0aGUgTUFDIGFkZHJlc3MgYXJlIG5vIGxvbmdlciByZWNvcmRlZDogdGhleSBjaGFuZ2UgYnkgdGhlbXNlbHZlcyBvbiBldmVyeSBzY2FuIG9yXG4gIHN5bmMgKHBob25lcyBhbmQgbGFwdG9wcyB1c2UgcmFuZG9tIE1BQyBhZGRyZXNzZXMpLiBVcGRhdGluZyBhbHNvIHJlbW92ZXMgdGhlbSBmcm9tIHRoZSBlbnRyaWVzIGFscmVhZHkgcmVjb3JkZWQuXG4gIFdoZW4gYW4gb2JqZWN0IGlzIGNyZWF0ZWQgb3IgZGVsZXRlZCB0aGV5IGFyZSBzdGlsbCByZWNvcmRlZCB3aXRoIHRoZSByZXN0IG9mIGl0cyBkYXRhLlxuLSBBZG1pbmlzdHJhdG9ycyBjYW4gZGVsZXRlIGVudHJpZXM6IHRoZSBzZWxlY3RlZCBvbmVzLCBldmVyeSBlbnRyeSBtYXRjaGluZyB0aGUgZmlsdGVycyBvciB0aGUgd2hvbGUgbG9nLiBUaGVcbiAgZGVsZXRpb24gaXRzZWxmIGlzIHJlY29yZGVkICh3aG8gYW5kIGhvdyBtYW55KS5cblxuRml4ZXM6XG5cbi0gV2luZG93czogdXBkYXRpbmcgZnJvbSB0aGUgd2ViIGZhaWxlZCB3aXRoIFwiUHl0aG9uIDMuMTEgb3IgbmV3ZXIgd2FzIG5vdCBmb3VuZFwiIHdoZW4gUHl0aG9uIGhhZCBiZWVuIGluc3RhbGxlZFxuICBcImp1c3QgZm9yIG1lXCIgKHRoZSBkZWZhdWx0IG9wdGlvbiBvZiB0aGUgcHl0aG9uLm9yZyBpbnN0YWxsZXIpLiBUaGUgdXBkYXRlIHJ1bnMgYXMgU1lTVEVNLCB3aGljaCBkb2VzIG5vdCBzZWUgdGhhdFxuICBQeXRob24uIFRoZSBpbnN0YWxsZXIgbm93IHVzZXMgdGhlIHNhbWUgUHl0aG9uIHRoZSBpbnN0YWxsZWQgTmV0UGlsb3QgYWxyZWFkeSBydW5zIG9uLlxuLSBXaW5kb3dzOiBpZiB0aGUgdXBkYXRlIGZhaWxlZCBiZWZvcmUgc3RhcnRpbmcgKGZvciBleGFtcGxlLCBiZWNhdXNlIG9mIHRoZSBwcmV2aW91cyBwb2ludCksIHRoZSBOZXRQaWxvdCBzZXJ2aWNlXG4gIHdhcyBsZWZ0IHN0b3BwZWQuIEl0IGlzIG5vdyBzdGFydGVkIGFnYWluIHdpdGggdGhlIHByZXZpb3VzIHZlcnNpb24uXG4tIFdoZW4gdXBkYXRpbmcsIHRoZSBpbnN0YWxsYXRpb24ga2VwdCBiZWluZyByZWNvcmRlZCB3aXRoIHRoZSBvcmlnaW5hbCB2ZXJzaW9uIChmb3IgZXhhbXBsZSwgMS4yLjEgb24gYSBzZXJ2ZXJcbiAgYWxyZWFkeSBydW5uaW5nIDEuNCkuIFRoZSBpbnN0YWxsZWQgdmVyc2lvbiBpcyBub3cgcmVjb3JkZWQuXG4tIFdpdGggUG9zdGdyZVNRTCwgdW5hdHRlbmRlZCB1cGRhdGVzIG5vIGxvbmdlciBhc2sgZm9yIHRoZSBkYXRhYmFzZSBzdXBlcnVzZXIgcGFzc3dvcmQuXG4tIElmIGFuIHVwZGF0ZSBmYWlscyBhbmQgdGhlIHByZXZpb3VzIHZlcnNpb24gc3RhcnRzIGFnYWluLCB0aGUgd2ViIHNob3dzIGl0IHN0cmFpZ2h0IGF3YXkuIEEgZG93bmxvYWQgb3IgYmFja3VwXG4gIGludGVycnVwdGVkIGJ5IGEgcmVzdGFydCBubyBsb25nZXIgc3RheXMgXCJpbiBwcm9ncmVzc1wiIGZvcmV2ZXIuXG4tIE9ubHkgdGhlIGRvY3VtZW50YXRpb24gYSBjdXN0b21lciBuZWVkcyBpcyBpbnN0YWxsZWQgKHZlcnNpb24gaGlzdG9yeSwgaW5zdGFsbGF0aW9uIGFuZCBvcGVyYXRpb24gZ3VpZGVzIGFuZCB0aGVcbiAgbW9kdWxlIHJlZmVyZW5jZSkuIEludGVybmFsIGRvY3VtZW50cyAocHJvcG9zYWxzLCBkZXNpZ24gbm90ZXMsIHB1YmxpYyBkZW1vLCBtYXJrZXRpbmcgbWF0ZXJpYWwpIGFyZSBubyBsb25nZXJcbiAgaW5zdGFsbGVkLCBhbmQgdGhvc2UgbGVmdCBieSBlYXJsaWVyIHZlcnNpb25zIGFyZSByZW1vdmVkIHdoZW4gdXBkYXRpbmcuIE9uIFdpbmRvd3MsIGZpbGVzIG9mIHByZXZpb3VzIHZlcnNpb25zXG4gIGFyZSBubyBsb25nZXIgbGVmdCBpbiB0aGUgaW5zdGFsbGF0aW9uIHBhY2thZ2UgZm9sZGVyLiIsInBhY2thZ2VzIjp7ImRvY2tlciI6eyJmaWxlIjoibmV0cGlsb3QtZG9ja2VyLTEuNi4xLnRhci5neiIsInNoYTI1NiI6ImNkOTM4MjNlYjE5ZDI4ZWY0OWJmOWE0NWIxMWEyYThmMWMyMTEzZTk1N2I2ODU3ZDYwM2Q5YWI3NzRhNTBlOTgiLCJzaXplIjoxMDI5NjU2MTIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9SYW5uZGVuLVNIQS9OZXRQaWxvdC1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS42LjEvbmV0cGlsb3QtZG9ja2VyLTEuNi4xLnRhci5neiJ9LCJsaW51eF9kZWIiOnsiZmlsZSI6Im5ldHBpbG90XzEuNi4xX2FsbC5kZWIiLCJzaGEyNTYiOiJiOGUyMjgxODA3YzExMmM5Y2RjYTg4ZGVlYWNhMjkwNzlkNTBlZjRhMzk1NjZkMjY3NmUzZWFjY2Y2YTIzZmQwIiwic2l6ZSI6NDYxNzgwODIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9SYW5uZGVuLVNIQS9OZXRQaWxvdC1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS42LjEvbmV0cGlsb3RfMS42LjFfYWxsLmRlYiJ9LCJsaW51eF9ydW4iOnsiZmlsZSI6Im5ldHBpbG90LWluc3RhbGxlci0xLjYuMS5ydW4iLCJzaGEyNTYiOiIxZDc3MTVlOTdkNDNjMjFhNWRjYzdlMDFkY2Y3YWYzYTFhNGE1ZDk2MDkyZGUzODFmZmYyMTk3MGUwODRmNTQ2Iiwic2l6ZSI6NDc0MTQxMTQsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9SYW5uZGVuLVNIQS9OZXRQaWxvdC1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS42LjEvbmV0cGlsb3QtaW5zdGFsbGVyLTEuNi4xLnJ1biJ9LCJsaW51eF90YXIiOnsiZmlsZSI6Im5ldHBpbG90LTEuNi4xLnRhci5neiIsInNoYTI1NiI6IjFhZGZiNDVmOGVkOTBiNTViMTkwYTAxZjI4ZGYyZTM3NDY0NDI4NjFjYmE5YzViYzdiZGQ4MzYwMmMwNTYyMDQiLCJzaXplIjo0NzQwMzM0MCwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1Jhbm5kZW4tU0hBL05ldFBpbG90LVJlbGVhc2VzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjYuMS9uZXRwaWxvdC0xLjYuMS50YXIuZ3oifSwid2luZG93cyI6eyJmaWxlIjoiTmV0UGlsb3RTZXR1cC0xLjYuMS5leGUiLCJzaGEyNTYiOiI3MzgyNGFjNWM1NTJmZGFjN2YxMzlhMTA3YjBlYTY2ZGRhYzQxOTNkNjMyNjc1Y2QwZTBmNTQ5ZTE2NzJkMWMwIiwic2l6ZSI6ODI4NDMzNzUsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9SYW5uZGVuLVNIQS9OZXRQaWxvdC1SZWxlYXNlcy9yZWxlYXNlcy9kb3dubG9hZC92MS42LjEvTmV0UGlsb3RTZXR1cC0xLjYuMS5leGUifX0sInByb2R1Y3QiOiJuZXRwaWxvdCIsInJlbGVhc2VfdXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1Jhbm5kZW4tU0hBL05ldFBpbG90LVJlbGVhc2VzL3JlbGVhc2VzL3RhZy92MS42LjEiLCJyZWxlYXNlZF9hdCI6IjIwMjYtMTAtMDNUMTQ6NDE6NTNaIiwic2NoZW1hIjoxLCJ2ZXJzaW9uIjoiMS42LjEifQ.Z0BFPPOXrBWYai7gTUshzMBO5bbqh46PSz5VYNLB4ulYFFgQc3kRwWzndjFnSDpgIFlkQrmuf-XLkjTOwhPLAA",
+  "signed": "eyJjaGFubmVsIjoiYmV0YSIsImlzc3VlZF9hdCI6IjIwMjYtMTAtMDNUMTU6MTU6MzZaIiwibWlncmF0aW9ucyI6dHJ1ZSwibWluX3ZlcnNpb24iOiIxLjAuMCIsIm5vdGVzIjoiLSBIZWxwIGlzIG5vIGxvbmdlciBsaXN0ZWQgaW4gdGhlIHNpZGUgbWVudTogb3BlbiBpdCB3aXRoIHRoZSBcIj9cIiBpY29uIGluIHRoZSB0b3AgYmFyIChvciBGMSkuIiwicGFja2FnZXMiOnsiZG9ja2VyIjp7ImZpbGUiOiJuZXRwaWxvdC1kb2NrZXItMS42LjIudGFyLmd6Iiwic2hhMjU2IjoiMmI4YTZmYjcxYmY5NDViYjVmMWM5YzA0MDc0ZjcyZjAyN2M4ODc0ODU0MDNjNzBmMWEzYTlkNmZjMmFhNjIzYSIsInNpemUiOjEwMjk3MDE1MywidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1Jhbm5kZW4tU0hBL05ldFBpbG90LVJlbGVhc2VzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjYuMi9uZXRwaWxvdC1kb2NrZXItMS42LjIudGFyLmd6In0sImxpbnV4X2RlYiI6eyJmaWxlIjoibmV0cGlsb3RfMS42LjJfYWxsLmRlYiIsInNoYTI1NiI6IjFmZTk1MTYyZDc0NGRlYWNiNDJiYjUwODIwNzYyNjQ5MTdmNjBlYzQzZTk4NzgyOWUwYWFlZTRmZDIyOTQ5MmMiLCJzaXplIjo0NjE3OTcxNiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1Jhbm5kZW4tU0hBL05ldFBpbG90LVJlbGVhc2VzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjYuMi9uZXRwaWxvdF8xLjYuMl9hbGwuZGViIn0sImxpbnV4X3J1biI6eyJmaWxlIjoibmV0cGlsb3QtaW5zdGFsbGVyLTEuNi4yLnJ1biIsInNoYTI1NiI6IjIwZTRiMDNlMjBjNzM2NzM2YTE4MDYxNDQ3NzBlZGE1MzZjZmRmZTcyMDE4ZGQzNzA3N2QwNTQ4MDQ2NmQyZjYiLCJzaXplIjo0NzQxMjM4MiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1Jhbm5kZW4tU0hBL05ldFBpbG90LVJlbGVhc2VzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjYuMi9uZXRwaWxvdC1pbnN0YWxsZXItMS42LjIucnVuIn0sImxpbnV4X3RhciI6eyJmaWxlIjoibmV0cGlsb3QtMS42LjIudGFyLmd6Iiwic2hhMjU2IjoiNjQ0YWI3MGU3OGQyYzVjMGFmODczOTViOTdkNGUxM2FkYmRlM2M1OThlY2JkZjhhY2Y4ZWRlOGQyNjNmODZkYSIsInNpemUiOjQ3NDAxMzA2LCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vUmFubmRlbi1TSEEvTmV0UGlsb3QtUmVsZWFzZXMvcmVsZWFzZXMvZG93bmxvYWQvdjEuNi4yL25ldHBpbG90LTEuNi4yLnRhci5neiJ9LCJ3aW5kb3dzIjp7ImZpbGUiOiJOZXRQaWxvdFNldHVwLTEuNi4yLmV4ZSIsInNoYTI1NiI6ImViMjcyNGQ3ZWI2NjdmOGZjZjM1MGYwY2MxMWQzM2FhNjRkNjNiNjUzOGM4NTdkOThlMGRjMzY5ODI1OGVlYWYiLCJzaXplIjo4Mjg0MzEzNiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1Jhbm5kZW4tU0hBL05ldFBpbG90LVJlbGVhc2VzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjYuMi9OZXRQaWxvdFNldHVwLTEuNi4yLmV4ZSJ9fSwicHJvZHVjdCI6Im5ldHBpbG90IiwicmVsZWFzZV91cmwiOiJodHRwczovL2dpdGh1Yi5jb20vUmFubmRlbi1TSEEvTmV0UGlsb3QtUmVsZWFzZXMvcmVsZWFzZXMvdGFnL3YxLjYuMiIsInJlbGVhc2VkX2F0IjoiMjAyNi0xMC0wM1QxNToxNTozNloiLCJzY2hlbWEiOjEsInZlcnNpb24iOiIxLjYuMiJ9.lbvSm-sIReryttoTDC6sfWag5j5Gz7CxqrCLKSeshVoN-SQhe2qU-zLUrmfDKFvPCpiFOjMAaMu6_uj64ofZDQ",
   "manifest": {
     "product": "netpilot",
     "schema": 1,
     "channel": "beta",
-    "version": "1.6.1",
-    "released_at": "2026-10-03T14:41:53Z",
-    "issued_at": "2026-10-03T14:41:53Z",
+    "version": "1.6.2",
+    "released_at": "2026-10-03T15:15:36Z",
+    "issued_at": "2026-10-03T15:15:36Z",
     "min_version": "1.0.0",
     "migrations": true,
-    "notes": "Updates from the web, with progress: while an update is installing, everyone with NetPilot open sees the progress\n(download, backup, installation step by step and start of the new version) and the page reloads by itself when the\nnew version answers. While the service is stopped, the installer serves that progress on the same address and port,\nso anyone who opens NetPilot during the update sees \"NetPilot is being updated\" instead of a connection error. If the\nupdate fails, you are told and NetPilot keeps running the previous version.\n\nWhat's new after updating: after an update, each user sees the release notes of the installed version once.\n\nCleaner change log:\n\n- Changes to \"last seen\" and to the MAC address are no longer recorded: they change by themselves on every scan or\n  sync (phones and laptops use random MAC addresses). Updating also removes them from the entries already recorded.\n  When an object is created or deleted they are still recorded with the rest of its data.\n- Administrators can delete entries: the selected ones, every entry matching the filters or the whole log. The\n  deletion itself is recorded (who and how many).\n\nFixes:\n\n- Windows: updating from the web failed with \"Python 3.11 or newer was not found\" when Python had been installed\n  \"just for me\" (the default option of the python.org installer). The update runs as SYSTEM, which does not see that\n  Python. The installer now uses the same Python the installed NetPilot already runs on.\n- Windows: if the update failed before starting (for example, because of the previous point), the NetPilot service\n  was left stopped. It is now started again with the previous version.\n- When updating, the installation kept being recorded with the original version (for example, 1.2.1 on a server\n  already running 1.4). The installed version is now recorded.\n- With PostgreSQL, unattended updates no longer ask for the database superuser password.\n- If an update fails and the previous version starts again, the web shows it straight away. A download or backup\n  interrupted by a restart no longer stays \"in progress\" forever.\n- Only the documentation a customer needs is installed (version history, installation and operation guides and the\n  module reference). Internal documents (proposals, design notes, public demo, marketing material) are no longer\n  installed, and those left by earlier versions are removed when updating. On Windows, files of previous versions\n  are no longer left in the installation package folder.",
-    "release_url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/tag/v1.6.1",
+    "notes": "- Help is no longer listed in the side menu: open it with the \"?\" icon in the top bar (or F1).",
+    "release_url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/tag/v1.6.2",
     "packages": {
       "linux_tar": {
-        "file": "netpilot-1.6.1.tar.gz",
-        "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.1/netpilot-1.6.1.tar.gz",
-        "sha256": "1adfb45f8ed90b55b190a01f28df2e3746442861cba9c5bc7bdd83602c056204",
-        "size": 47403340
+        "file": "netpilot-1.6.2.tar.gz",
+        "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.2/netpilot-1.6.2.tar.gz",
+        "sha256": "644ab70e78d2c5c0af87395b97d4e13adbde3c598ecbdf8acf8ede8d263f86da",
+        "size": 47401306
       },
       "docker": {
-        "file": "netpilot-docker-1.6.1.tar.gz",
-        "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.1/netpilot-docker-1.6.1.tar.gz",
-        "sha256": "cd93823eb19d28ef49bf9a45b11a2a8f1c2113e957b6857d603d9ab774a50e98",
-        "size": 102965612
+        "file": "netpilot-docker-1.6.2.tar.gz",
+        "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.2/netpilot-docker-1.6.2.tar.gz",
+        "sha256": "2b8a6fb71bf945bb5f1c9c04074f72f027c887485403c70f1a3a9d6fc2aa623a",
+        "size": 102970153
       },
       "linux_run": {
-        "file": "netpilot-installer-1.6.1.run",
-        "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.1/netpilot-installer-1.6.1.run",
-        "sha256": "1d7715e97d43c21a5dcc7e01dcf7af3a1a4a5d96092de381fff21970e084f546",
-        "size": 47414114
+        "file": "netpilot-installer-1.6.2.run",
+        "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.2/netpilot-installer-1.6.2.run",
+        "sha256": "20e4b03e20c736736a1806144770eda536cfdfe72018dd37077d05480466d2f6",
+        "size": 47412382
       },
       "linux_deb": {
-        "file": "netpilot_1.6.1_all.deb",
-        "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.1/netpilot_1.6.1_all.deb",
-        "sha256": "b8e2281807c112c9cdca88deeaca29079d50ef4a39566d2676e3eaccf6a23fd0",
-        "size": 46178082
+        "file": "netpilot_1.6.2_all.deb",
+        "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.2/netpilot_1.6.2_all.deb",
+        "sha256": "1fe95162d744deacb42bb5082076264917f60ec43e987829e0aaee4fd229492c",
+        "size": 46179716
       },
       "windows": {
-        "file": "NetPilotSetup-1.6.1.exe",
-        "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.1/NetPilotSetup-1.6.1.exe",
-        "sha256": "73824ac5c552fdac7f139a107b0ea66ddac4193d632675cd0e0f549e1672d1c0",
-        "size": 82843375
+        "file": "NetPilotSetup-1.6.2.exe",
+        "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.2/NetPilotSetup-1.6.2.exe",
+        "sha256": "eb2724d7eb667f8fcf350f0cc11d33aa64d63b6538c857d98e0dc3698258eeaf",
+        "size": 82843136
       }
     }
   }

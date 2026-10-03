@@ -1,0 +1,44 @@
+{
+  "product": "netpilot",
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.6.2",
+  "released_at": "2026-10-03T15:15:36Z",
+  "issued_at": "2026-10-03T15:15:36Z",
+  "min_version": "1.0.0",
+  "migrations": true,
+  "notes": "- Help is no longer listed in the side menu: open it with the \"?\" icon in the top bar (or F1).",
+  "release_url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/tag/v1.6.2",
+  "packages": {
+    "linux_tar": {
+      "file": "netpilot-1.6.2.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.2/netpilot-1.6.2.tar.gz",
+      "sha256": "644ab70e78d2c5c0af87395b97d4e13adbde3c598ecbdf8acf8ede8d263f86da",
+      "size": 47401306
+    },
+    "docker": {
+      "file": "netpilot-docker-1.6.2.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.2/netpilot-docker-1.6.2.tar.gz",
+      "sha256": "2b8a6fb71bf945bb5f1c9c04074f72f027c887485403c70f1a3a9d6fc2aa623a",
+      "size": 102970153
+    },
+    "linux_run": {
+      "file": "netpilot-installer-1.6.2.run",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.2/netpilot-installer-1.6.2.run",
+      "sha256": "20e4b03e20c736736a1806144770eda536cfdfe72018dd37077d05480466d2f6",
+      "size": 47412382
+    },
+    "linux_deb": {
+      "file": "netpilot_1.6.2_all.deb",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.2/netpilot_1.6.2_all.deb",
+      "sha256": "1fe95162d744deacb42bb5082076264917f60ec43e987829e0aaee4fd229492c",
+      "size": 46179716
+    },
+    "windows": {
+      "file": "NetPilotSetup-1.6.2.exe",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.6.2/NetPilotSetup-1.6.2.exe",
+      "sha256": "eb2724d7eb667f8fcf350f0cc11d33aa64d63b6538c857d98e0dc3698258eeaf",
+      "size": 82843136
+    }
+  }
+}
