@@ -1,0 +1,44 @@
+{
+  "product": "netpilot",
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.7.1",
+  "released_at": "2026-10-07T11:05:46Z",
+  "issued_at": "2026-10-07T11:05:46Z",
+  "min_version": "1.0.0",
+  "migrations": true,
+  "notes": "RMM agent\n\n- Uninstall from NetPilot: editors can uninstall an agent from the agents list of the *RMM* page or from the\n  *Remote management* card of its endpoint. The agent removes its service and its files from the computer, and\n  NetPilot marks it as revoked, which frees its place in the license. If the computer is off, the request waits until\n  the agent connects (*Uninstall pending*) and can be cancelled until then. It needs agent 1.7.1 or later: reinstall\n  older agents with the current installer first, or uninstall them on the computer.\n- Uninstalling on the computer updates NetPilot: uninstalling from *Apps & Features*, with\n  netpilot-agent uninstall or by removing the Linux package now tells the server, which marks the agent as revoked\n  and frees its place in the license, so there is no need to revoke it by hand. If the server cannot be reached, the\n  uninstall still finishes and the agent stays offline in NetPilot until you revoke it. Revoked agents show why:\n  uninstalled from the console, uninstalled locally, removed with the package manager or revoked.\n- .deb and .rpm packages for Linux (x64 and ARM64): the agent appears in the package manager and is removed\n  with sudo apt remove netpilot-agent or sudo dnf remove netpilot-agent. The one-line Linux command picks the\n  right package by itself (or the plain program on systems without dpkg or rpm) and checks it with SHA-256.\n  *Deploy agent* also offers the packages for download, with their SHA-256 and the commands to install them by hand.\n  Upgrading the package keeps the computer enrolled.\n- Live values without constant traffic: the *Monitoring* tab of an endpoint now refreshes its current usage every\n  minute by default (new *Current usage* setting in *RMM → Settings → Intervals*, from 5 to 600 seconds). The *Live*\n  button shows it every 2 seconds, with a *Stop* button, and turns itself off after 5 minutes, when the page is hidden\n  or when you leave it.\n- The Windows agent program carries the NetPilot icon.\n\nReleases: the agent's Linux packages are built for every version and included in every server package (Windows\ninstaller, Linux packages and Docker image), next to the agent programs.\n\nDatabase: migration 0013 (uninstalling RMM agents from the console); it is applied automatically when upgrading.",
+  "release_url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/tag/v1.7.1",
+  "packages": {
+    "linux_tar": {
+      "file": "netpilot-1.7.1.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.7.1/netpilot-1.7.1.tar.gz",
+      "sha256": "c4c13073aa62f52c8ab3bd0eb77a0e7f4dd5f41d5779ca683e830664ca8b2797",
+      "size": 70311917
+    },
+    "docker": {
+      "file": "netpilot-docker-1.7.1.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.7.1/netpilot-docker-1.7.1.tar.gz",
+      "sha256": "d0b95d89ca61cbc60647a246c6f0b2540c2c63fb4c9f7efaf634e80cc17e6d1e",
+      "size": 122991642
+    },
+    "linux_run": {
+      "file": "netpilot-installer-1.7.1.run",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.7.1/netpilot-installer-1.7.1.run",
+      "sha256": "592da188b594f9089ab78e7ff3f164077883af26c6f8daf6bd7e61e98317bd55",
+      "size": 70322689
+    },
+    "linux_deb": {
+      "file": "netpilot_1.7.1_all.deb",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.7.1/netpilot_1.7.1_all.deb",
+      "sha256": "a8114d3d4e97b8ca543829ab64e8a35cd20feaf7cb5239b543c4f96b5e95cb3c",
+      "size": 67104650
+    },
+    "windows": {
+      "file": "NetPilotSetup-1.7.1.exe",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.7.1/NetPilotSetup-1.7.1.exe",
+      "sha256": "a526c395630c309a4bbc809ae38fcab10ca25d7346b48df979645deb44c31d36",
+      "size": 102856527
+    }
+  }
+}
