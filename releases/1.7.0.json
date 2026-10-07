@@ -1,0 +1,44 @@
+{
+  "product": "netpilot",
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.7.0",
+  "released_at": "2026-10-07T06:29:29Z",
+  "issued_at": "2026-10-07T06:29:29Z",
+  "min_version": "1.0.0",
+  "migrations": true,
+  "notes": "RMM agent (rmm module, included in the Operations, MSP and Enterprise licenses): a NetPilot agent for Windows\nand Linux computers that keeps their record in *Inventory → Endpoints* up to date by itself. It runs as a visible\nservice (NetPilot Agent) and keeps a single outgoing connection to the server over the local network, encrypted end\nto end: it opens no ports on the computer and only trusts the NetPilot server it was installed for.\n\n- Deploy: administrators create deployment codes for a site (and company), with an expiry, a maximum number of\n  installs and automatic or manual approval. *Deploy agent* (on the new *RMM* page, in *Endpoints* and on the\n  endpoint and location pages) offers the Windows EXE, which already carries the server address and the code\n  (double-click it and accept the administrator prompt), a PowerShell command and a one-line Linux command (x64 and\n  ARM64), all checked with SHA-256, plus a download link, a QR code and an e-mail with the instructions. If the\n  server address the agents would use is localhost, the window warns that other computers cannot reach it. An MSI\n  for GPO/Intune and .deb/.rpm packages are not available yet.\n- Linked to its endpoint: a new agent is matched with an existing endpoint of the code's site by serial number,\n  MAC address or name; if there is none, a new endpoint is created. With manual approval, an editor approves the\n  agent and can choose its endpoint.\n- Status and usage at a glance: *Endpoints* shows whether each computer is online (with a LAN badge) and a\n  *Usage* column with CPU, RAM and disk bars. The endpoint page adds the *Remote management* card and the\n  *Monitoring* (live values with the busiest processes, and history charts), *Inventory* (system, hardware, disks,\n  network and security: antivirus, firewall and BitLocker on Windows; ufw/firewalld, SELinux/AppArmor and encrypted\n  volumes on Linux) and *Software* tabs.\n- History: metrics every minute for 48 hours, every 5 minutes for 30 days and every hour for a year\n  (configurable). An agent that loses the connection keeps up to 24 hours of metrics and sends them when it is back.\n- Settings (*RMM → Settings*, administrators): the server addresses for the agents, the intervals, the time after\n  which an agent is shown offline, retention and the server key fingerprint. Changes reach connected agents at once.\n- If the same agent identity runs on two computers (a cloned disk image), the agent's page shows a warning.\n- Uninstall: from *Apps & Features* on Windows or with sudo /usr/lib/netpilot-agent/netpilot-agent uninstall on\n  Linux; then revoke and delete the agent in NetPilot to free its place in the license.\n- Help for the three tabs of the *RMM* page. The public demo includes sample agents with their inventory and history,\n  and refuses real agents and installer downloads.\n\nLicenses: a license can limit the number of RMM agents. The license page and netpilotctl license status show\nthe agents used and allowed. Revoked agents do not count, and agents never count against the device limit.\n\nChange log: what an agent changes by itself (its version, the operating system or the hardware data of its\nendpoint) is recorded with the new source *Agent* and the computer's name, also in the dashboard chart and in the\nreports. Changes to the RMM settings and inventory requests are recorded too.\n\nBackups: netpilotctl backup and the backups made from the web include the RMM server key (rmm-server.key),\nwhich is always restored together with the database. Keep your backups: if that key is lost, every agent has to be\ninstalled again.\n\nReleases: every server package (Windows installer, Linux packages and Docker image) includes the agent of the same\nversion. The files of each version are uploaded straight to the release and SHA256SUMS.txt is built from the final\nset; no intermediate copies are kept on GitHub.\n\nDatabase: migration 0012 (RMM agent); it is applied automatically when upgrading.",
+  "release_url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/tag/v1.7.0",
+  "packages": {
+    "linux_tar": {
+      "file": "netpilot-1.7.0.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.7.0/netpilot-1.7.0.tar.gz",
+      "sha256": "03a4aaa7ab9331fb1963545e7ba5e92f70ceff1489fe3ac63ed675a0789f1117",
+      "size": 57325998
+    },
+    "docker": {
+      "file": "netpilot-docker-1.7.0.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.7.0/netpilot-docker-1.7.0.tar.gz",
+      "sha256": "5af4e303b202ebf2216808cc88de94be6a94b0211b89ba6ce1d1ffb669645a81",
+      "size": 110018730
+    },
+    "linux_run": {
+      "file": "netpilot-installer-1.7.0.run",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.7.0/netpilot-installer-1.7.0.run",
+      "sha256": "0c41d69d28a50134cf9115e376c1ba74eee2e470ab68c0e968dfde52ef3450a0",
+      "size": 57336518
+    },
+    "linux_deb": {
+      "file": "netpilot_1.7.0_all.deb",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.7.0/netpilot_1.7.0_all.deb",
+      "sha256": "7b304dbffc1b90ccf45a1e5c3766a2f97f98b4015a0a03b2bab3110a56e9b574",
+      "size": 53916224
+    },
+    "windows": {
+      "file": "NetPilotSetup-1.7.0.exe",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.7.0/NetPilotSetup-1.7.0.exe",
+      "sha256": "f43e13bdfa08ae655624312c9c042a790c9d9be8c7a4795c4fb97661d6e78646",
+      "size": 89695194
+    }
+  }
+}
