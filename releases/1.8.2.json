@@ -1,0 +1,44 @@
+{
+  "product": "netpilot",
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.8.2",
+  "released_at": "2026-10-26T20:44:45Z",
+  "issued_at": "2026-10-26T20:44:45Z",
+  "min_version": "1.0.0",
+  "migrations": true,
+  "notes": "A much bigger Warehouse, and remote control for your computers. The Warehouse (licence stock) grows into a\nfull inventory app for the whole team, and NetPilot gains its own remote control in view-only mode.\n\n- Requests and approvals: ask for material (issues and loans) with a reason, approve or deny, hand out and\n  return, and open a fault when something comes back damaged. Handing out creates the real stock movements, and loans\n  warn before and when they are due. Notifications by bell and e-mail.\n- Fine-grained Warehouse permissions and copy access: give each person exactly what they need (view, request,\n  add, edit, hand out, approve, count, print labels, import…) on top of their role, including \"add but not delete\";\n  and copy one user's access to another.\n- Adding items with a photo: a three-step wizard where the AI Assistant reads a photo and proposes the item's\n  details. Each user can set their own AI key in their profile, or the organisation's key is used.\n- Check lists for opening and closing, time tracking (clock in and out, your hours, with the legal\n  working-time record kept and exportable by managers, every query audited), and club briefs (upload a PDF and\n  the AI pulls the agenda by day, with an .ics calendar).\n- Generic import of items, categories, suppliers, stock levels and serial units from CSV or JSON, with a preview\n  before saving that never duplicates when repeated.\n- Mobile home for the Warehouse: big, accessible buttons per person to request, see what they have, scan,\n  approve, hand out and clock in.\n- Remote control (view-only): watch a computer's screen through its RMM agent, from the endpoint's page, with its\n  own permission and activity log.",
+  "release_url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/tag/v1.8.2",
+  "packages": {
+    "linux_tar": {
+      "file": "netpilot-1.8.2.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.8.2/netpilot-1.8.2.tar.gz",
+      "sha256": "f99592bb9f5a069bed25c75f1c31a293a36eb88cfa9250e2ebc4995dcd6b01ef",
+      "size": 270887188
+    },
+    "docker": {
+      "file": "netpilot-docker-1.8.2.tar.gz",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.8.2/netpilot-docker-1.8.2.tar.gz",
+      "sha256": "320284cb0abc5123b9fc149a03ddf0000227eb117d12646e4afb0be5ca230b00",
+      "size": 324546016
+    },
+    "linux_run": {
+      "file": "netpilot-installer-1.8.2.run",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.8.2/netpilot-installer-1.8.2.run",
+      "sha256": "ec641f64b97053a84d65f041c97292af6e0dc340c092d570946147c62deb9188",
+      "size": 270895871
+    },
+    "linux_deb": {
+      "file": "netpilot_1.8.2_all.deb",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.8.2/netpilot_1.8.2_all.deb",
+      "sha256": "94dcd3e787ac8103d60321018b5e15ece5e34ddc668bb2df711aabc661d4ca63",
+      "size": 262440312
+    },
+    "windows": {
+      "file": "NetPilotSetup-1.8.2.exe",
+      "url": "https://github.com/Rannden-SHA/NetPilot-Releases/releases/download/v1.8.2/NetPilotSetup-1.8.2.exe",
+      "sha256": "fdb27a1e3c5d5e58baf328b760b63088182f0a286e56cdc319613b64e667e6fd",
+      "size": 297689400
+    }
+  }
+}
